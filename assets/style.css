@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://raw.githubusercontent.com/CIDoubleAgent/max-and-ellies-baby-countdown/main/images/background_babyshower.webp");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+#countdown {
+    text-align: center;
+    border: solid;
+    border-radius: 7px;
+    background-color: rgb(255, 192, 221);
+    width: 880px;
+}
+
+#footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
