@@ -26,5 +26,17 @@ h2 {
     background-color: whitesmoke;
     width: 880px;
     padding-bottom: 2rem;
+    padding-left: 10px;
+    padding-right: 10px;
     margin: 20px;
+}
+
+@media (max-width: 430px) {
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 25px;
+    }
 }
