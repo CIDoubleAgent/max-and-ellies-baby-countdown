@@ -1,10 +1,12 @@
 body {
-    background-image: url("https://raw.githubusercontent.com/CIDoubleAgent/max-and-ellies-baby-countdown/main/images/background_babyshower.webp");
+    background-image: url("https://github.com/CIDoubleAgent/max-and-ellies-baby-countdown/blob/main/images/background_roses.jpg?raw=true");
+    background-position: center center;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     height: 100vh;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
@@ -17,16 +19,10 @@ h2 {
 
 #countdown {
     text-align: center;
+    color: rgb(0, 91, 53);
     border: solid;
     border-radius: 7px;
-    background-color: rgb(255, 192, 221);
+    border-color: plum;
+    background-color: whitesmoke;
     width: 880px;
-}
-
-#footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
 }
