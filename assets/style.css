@@ -9,7 +9,7 @@ body {
     padding: 0px;
 }
 
-h1 {
+#countdown-title {
     font-size: 60px;
     font-family: 'Great Vibes', cursive;
     color: rgb(0, 116, 68);
@@ -32,18 +32,33 @@ p {
     border-color: plum;
     background-color: whitesmoke;
     width: 880px;
-    padding-bottom: 2rem;
     padding-left: 15px;
     padding-right: 15px;
     margin: 20px;
 }
 
-@media (max-width: 430px) {
-    h1 {
+#target {
+    text-align: center;
+    color: rgb(0, 116, 68);
+}
+
+#target-title {
+    font-size: 90px;
+    font-family: 'Great Vibes', cursive;
+    margin-left: 35px;
+    margin-right: 35px;
+}
+
+@media (max-width: 503px) {
+    #countdown-title {
         font-size: 45px;
     }
     
     h2 {
         font-size: 33px;
+    }
+
+    #target-title {
+        font-size: 60px;
     }
 }
