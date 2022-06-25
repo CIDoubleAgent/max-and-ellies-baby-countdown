@@ -1,4 +1,4 @@
-const countDownDate = new Date("Jul 13, 2022 12:00:01").getTime();
+const countDownDate = new Date("Jul 13, 2022 00:00:01").getTime();
 const x = setInterval(function() {
     let now = new Date().getTime();
     let distance = countDownDate - now;
@@ -8,5 +8,13 @@ const x = setInterval(function() {
     let seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
     document.getElementById("timer-div").innerHTML = days + " Days " + hours + " Hours " + minutes + " Minutes and " + seconds + " Seconds! ";
+    countdownDiv = document.getElementById("countdown");
+    targetDiv = document.getElementById("target")
+
+    if(seconds < 0) {
+        targetDiv.style.display = "block";
+    } else {
+        countdownDiv.style.display = "block";
+    }
 
 }, 1000);
