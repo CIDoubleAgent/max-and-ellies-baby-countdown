@@ -22,3 +22,14 @@ setInterval(function() {
     }
 
 }, 1000);
+
+// let now = new Date().getTime();
+// let confettiDistance = countDownDate - now;
+// let confettiSeconds = Math.floor((confettiDistance % (1000 * 60)) / 1000);
+
+// if(confettiSeconds < 0) {
+//     confetti({
+//         spread: 150,
+//         colors: ["#fda7ff", "fcff6d", "028200", "6ab2ff"]
+//     });
+// }
