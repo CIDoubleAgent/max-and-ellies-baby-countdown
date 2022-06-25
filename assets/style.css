@@ -8,21 +8,6 @@ body {
     margin: 0px;
 }
 
-#countdown-title {
-    font-size: 60px;
-    font-family: 'Great Vibes', cursive;
-    color: rgb(0, 116, 68);
-}
-
-h2 {
-    font-size: 40px;
-    font-family: 'Parisienne', cursive;
-}
-
-p {
-    font-family: 'Parisienne', cursive;
-}
-
 #countdown {
     text-align: center;
     color: rgb(0, 116, 68);
@@ -34,6 +19,26 @@ p {
     padding-left: 15px;
     padding-right: 15px;
     margin: 20px;
+}
+
+
+#countdown-title {
+    font-size: 65px;
+    font-family: 'Great Vibes', cursive;
+    color: rgb(0, 116, 68);
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Parisienne', cursive;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+p {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 40px;
+    margin-top: 10px;
 }
 
 #target {
@@ -54,7 +59,12 @@ p {
     }
     
     h2 {
-        font-size: 33px;
+        font-size: 35px;
+        margin-bottom: 40px;
+    }
+
+    p {
+        font-size: 25px;
     }
 
     #target-title {
