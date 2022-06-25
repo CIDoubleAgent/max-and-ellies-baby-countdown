@@ -1,5 +1,5 @@
 const countDownDate = new Date("Jul 13, 2022 00:00:01").getTime();
-const x = setInterval(function() {
+setInterval(function() {
     let now = new Date().getTime();
     let distance = countDownDate - now;
     let days = Math.floor(distance / (1000 * 60 * 60 * 24));
