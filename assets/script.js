@@ -13,6 +13,10 @@ const x = setInterval(function() {
 
     if(seconds < 0) {
         targetDiv.style.display = "block";
+        confetti({
+            spread: 150,
+            colors: ["#fda7ff", "fcff6d", "028200", "6ab2ff"]
+        });
     } else {
         countdownDiv.style.display = "block";
     }
